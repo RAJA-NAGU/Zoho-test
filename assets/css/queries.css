@@ -175,6 +175,9 @@
         border-width: 0px 2px 2px 0px;
     }
 
+    .join-desc-box {
+        text-align: center;
+    }
 
     .footer-container {
         flex-direction: column;
