@@ -1,0 +1,260 @@
+.container {
+width: 95%;
+max-width: 1150px;
+margin: 0 auto;
+}
+
+
+.section-hero {
+
+padding: 100px 0 50px;
+background: linear-gradient(263deg, rgba(199, 253, 255, 1) 0%, rgba(255, 249, 224, 0.9159313383556548) 100%);
+}
+
+.hero-container {
+display: flex;
+flex-wrap: wrap;
+}
+
+.hero-img-box,
+.hero-text-box {
+width: 50%;
+flex: 0 0 50%;
+}
+
+.hero-img {
+max-width: 100%;
+}
+
+.logo-box {
+display: flex;
+width: 80%;
+}
+
+.zoho-logo {
+max-width: 50%;
+margin-bottom: 50px;
+}
+
+.roadshow-logo {
+max-width: 90%;
+margin-bottom: 20px;
+
+}
+
+.hero-description {
+max-width: 80%;
+margin-bottom: 30px;
+}
+
+<!-- section hero start -->
+<section class="section-hero">
+    <div class="container">
+        <div class="hero-container">
+            <div class="hero-text-box">
+                <a class="logo-box">
+                    <img src="./assets/img/projects.svg" class="zoho-logo" alt="zoho logo">
+                </a>
+                <div class="roadshow-box">
+                    <img src="./assets/img/roadshow-typography.svg" class="roadshow-logo" alt="roadshow logo">
+                </div>
+                <div>
+                    <p class="hero-description">
+                        Discover a transformative approach to project management in your city! That's right —
+                        we're
+                        touching down in New York, Chicago, Los Angeles and Austin to conduct a special series
+                        of
+                        roadshows to help you explore the myriad of capabilities that Zoho Projects has on offer
+                        to
+                        revolutionize project management for you, alongside interactive sessions and practical
+                        insights!
+                    </p>
+                </div>
+                <a class="btn btn-get-ticket">GET YOUR TICKETS NOW</a>
+            </div>
+            <div class="hero-img-box">
+                <img src="./assets/img/roadshow-illustration.png" class="hero-img" alt="hero image">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- section hero end -->
+
+
+@media(max-width:1200px) {
+.section-hero {
+padding-top: 50px;
+}
+
+.section-rundown {
+padding-block: 50px;
+}
+
+.session-container {
+max-width: 70%;
+row-gap: 30px;
+margin: 0 auto;
+}
+
+.session-item {
+flex: 0 0 50%;
+width: 50%;
+}
+
+.attend-inner {
+padding-left: 32px;
+}
+
+.attend-inner::before {
+font-size: 22px;
+left: 0;
+top: 24px;
+}
+
+.attend-head {
+font-size: 20px;
+}
+
+.section-join .heading-sec {
+/* font-size: 44px; */
+max-width: 76%;
+line-height: 1.2;
+}
+
+}
+
+@media(max-width:992px) {
+.header-container {
+padding-block: 4px;
+}
+
+.logo-box {
+/* max-width: 60%; */
+justify-content: center;
+}
+
+.roadshow-box {
+display: flex;
+justify-content: center;
+margin-bottom: 30px;
+}
+
+.hero-img-box,
+.hero-text-box {
+width: 100%;
+flex: 0 0 100%;
+}
+
+.hero-img-box {
+display: flex;
+justify-content: center;
+}
+
+.hero-text-box {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.hero-description {
+max-width: 70%;
+margin: 0 auto;
+text-align: center;
+margin-bottom: 30px;
+}
+
+.rundown-text-box,
+.rundown-img-box {
+flex: 0 0 100%;
+}
+
+.rundown-lists {
+display: flex;
+flex-wrap: wrap;
+}
+
+.run-down-list {
+flex: 0 0 33.3%;
+
+}
+
+.attend-item {
+flex: 0 0 50%;
+width: 50%;
+border: none;
+}
+
+.attend-item::before {
+display: none;
+}
+
+.attend-inner::before {
+font-size: 26px;
+left: 0;
+top: 24px;
+}
+
+.attend-head {
+font-size: 26px;
+}
+
+.attend-inner {
+padding-left: 40px;
+}
+
+}
+
+@media (max-width:768px) {
+.container {
+max-width: 90%;
+}
+
+.header-logo {
+width: 50%;
+}
+
+.btn-get-ticket {
+padding: 8px 12px;
+}
+
+.logo-box {
+max-width: 80%;
+}
+
+.run-down-list {
+flex: 0 0 100%;
+}
+
+.heading-secondary {
+font-size: 36px;
+font-weight: bold;
+margin-bottom: 20px;
+}
+
+.hero-description {
+max-width: 80%;
+}
+
+.section-join .heading-sec {
+font-size: 33px;
+}
+
+.footer-container {
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+
+/* .footer-lists,
+.footer-copy {
+flex: 0 0 100%;
+} */
+}
+
+@media(max-width:540px) {
+.header.sticky {
+display: none;
+}
+}

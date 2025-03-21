@@ -1,0 +1,27 @@
+:root {
+    --c-black: #000;
+    --c-white: #fff;
+    --c-gray: #8d8d8d22;
+    --c-red: #dd2b2b;
+    --c-prime-blue: #2352f5;
+    --c-indigo: #a9cfff;
+    --c-orange: rgba(241, 199, 154, 0.799);
+    --c-semi-orange: rgba(240, 204, 165, 0.695);
+    --c-light-orange: rgba(236, 228, 208, 0.908);
+    --c-green: rgba(137, 249, 178, 0.774);
+    --c-semi-green: rgba(166, 249, 197, 0.829);
+    --c-light-green: rgba(199, 254, 219, 0.626);
+    --c-blue: rgba(100, 195, 219, 0.778);
+    --c-semi-blue: rgba(160, 217, 231, 0.789);
+    --c-light-blue: rgba(195, 228, 236, 0.734);
+    --c-pink: rgba(250, 146, 165, 0.825);
+    --c-semi-pink: rgba(250, 175, 188, 0.715);
+    --c-light-pink: rgba(255, 216, 223, 0.759);
+    --c-light-red: #a4838394;
+    --c-shadow-blue: rgba(199, 253, 255, 1);
+    --c-light-sandal: rgba(255, 249, 224, 0.9159313383556548);
+    --shadow: rgba(0, 0, 0, 0.133);
+    --c-semi-gray: #d8d8d8;
+    --line: #77777770;
+    --light: #00000032;
+}

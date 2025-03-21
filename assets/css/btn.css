@@ -1,0 +1,8 @@
+.btn-get-ticket {
+    display: inline-block;
+    padding: 12px 32px;
+    background-color: var(--c-black);
+    font-size: 18px;
+    color: var(--c-white);
+    font-weight: 600;
+}

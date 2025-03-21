@@ -1,0 +1,234 @@
+@media(max-width:1200px) {
+    .section-hero {
+        padding-top: 50px;
+    }
+
+    .section-rundown {
+        padding-block: 50px;
+    }
+
+    .session-container {
+        max-width: 70%;
+        row-gap: 30px;
+        margin: 0 auto;
+    }
+
+    .session-item {
+        flex: 0 0 50%;
+        width: 50%;
+    }
+
+    .attend-inner {
+        padding-left: 32px;
+    }
+
+    .attend-inner::before {
+
+        left: 0;
+        top: 24px;
+    }
+
+    .section-join .heading-sec {
+        max-width: 80%;
+        line-height: 1.2;
+    }
+
+}
+
+@media(max-width:992px) {
+    .header-container {
+        padding-block: 4px;
+    }
+
+    .logo-box {
+        /* max-width: 60%; */
+        justify-content: center;
+    }
+
+    .roadshow-box {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .hero-img-box,
+    .hero-text-box {
+        width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .hero-img-box {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-text-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-description {
+        max-width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .rundown-text-box,
+    .rundown-img-box {
+        flex: 0 0 100%;
+    }
+
+    .rundown-lists {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .run-down-list {
+        flex: 0 0 33.3%;
+
+    }
+
+    .attend-item {
+        flex: 0 0 50%;
+        width: 50%;
+        border: none;
+    }
+
+    .attend-item::before {
+        display: none;
+    }
+
+    .attend-inner::before {
+        left: 0;
+        top: 26px;
+    }
+
+
+    .attend-inner {
+        padding-left: 40px;
+    }
+
+}
+
+@media (max-width:768px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .header-logo {
+        width: 50%;
+    }
+
+    .zoho-logo {
+        margin-bottom: 35px;
+    }
+
+    .btn-get-ticket {
+        padding: 8px 12px;
+    }
+
+    .logo-box {
+        max-width: 80%;
+    }
+
+    .run-down-list {
+        flex: 0 0 100%;
+    }
+
+    .hero-description {
+        max-width: 90%;
+    }
+
+    .heading-secondary {
+        margin-bottom: 20px;
+    }
+
+    .section-session .headingsecondary {
+        max-width: 65%;
+    }
+
+    .session-container {
+        max-width: 85%;
+    }
+
+    .session-item {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+
+    .heading-tertiary {
+        margin-bottom: 5px;
+    }
+
+    .run-down-list-icon::before {
+        width: 22px;
+        height: 22px;
+        top: 6px;
+    }
+
+    .run-down-list-icon::after {
+        left: 8px;
+        top: 11px;
+        border-width: 0px 2px 2px 0px;
+    }
+
+
+    .footer-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .section {
+        padding-block: 30px;
+    }
+
+    .play-box {
+        width: 45px;
+        height: 45px;
+    }
+
+    .play-btn {
+        font-size: 35px;
+    }
+
+    /* .footer-lists,
+    .footer-copy {
+        flex: 0 0 100%;
+    } */
+}
+
+@media(max-width:576px) {
+    .header.sticky {
+        display: none;
+    }
+
+    .attend-item {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+
+    .attend-head {
+        margin-bottom: 10px;
+    }
+
+    .member-lists {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .member-list {
+        width: 100%;
+    }
+
+    .member-item {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
